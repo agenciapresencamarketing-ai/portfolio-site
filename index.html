@@ -134,39 +134,35 @@
 
     .case-thumb {
       width: 100%;
-      aspect-ratio: 320 / 200;
+      aspect-ratio: 16 / 9;
       position: relative;
       overflow: hidden;
       background: #faf8f6;
-      container-type: inline-size;
     }
 
-    /* MINIATURA VIDA ATIVA ACADEMIA */
+    /* ===== MINIATURA VIDA ATIVA ACADEMIA ===== */
     .lp-preview-academia {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 320px;
-      height: 200px;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       background: #ffffff;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transform: scale(calc(100cqw / 320px));
-      transform-origin: top left;
     }
     .lp-header-acad {
-      height: 28px;
+      height: 36px;
       background: #fff;
       border-bottom: 1px solid #f0f0f0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 14px;
+      padding: 0 16px;
       flex-shrink: 0;
     }
     .lp-logo-acad {
-      font-size: 9px;
+      font-size: 13px;
       font-weight: 700;
       color: #1a1a1a;
       font-family: Georgia, serif;
@@ -174,7 +170,7 @@
     }
     .lp-logo-acad span {
       display: block;
-      font-size: 5px;
+      font-size: 8px;
       font-weight: 500;
       color: #999;
       font-family: Inter, sans-serif;
@@ -186,22 +182,22 @@
       gap: 12px;
     }
     .lp-nav-acad span {
-      font-size: 5px;
+      font-size: 10px;
       color: #555;
     }
     .lp-btn-header-acad {
-      font-size: 5px;
+      font-size: 9px;
       background: #C41E3A;
       color: #fff;
-      padding: 3px 10px;
+      padding: 4px 10px;
       border-radius: 12px;
       font-weight: 500;
     }
     .lp-hero-acad {
       flex: 1;
       display: flex;
-      padding: 14px 16px;
-      gap: 10px;
+      padding: 16px;
+      gap: 16px;
       position: relative;
       background: #FAFAFA;
     }
@@ -213,14 +209,14 @@
       gap: 6px;
     }
     .lp-label-acad {
-      font-size: 5px;
+      font-size: 9px;
       color: #C41E3A;
       font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
     .lp-title-acad {
-      font-size: 11px;
+      font-size: 16px;
       font-weight: 700;
       color: #1a1a1a;
       line-height: 1.25;
@@ -232,35 +228,35 @@
       font-weight: 500;
     }
     .lp-desc-acad {
-      font-size: 6px;
+      font-size: 11px;
       color: #777;
       line-height: 1.4;
       max-width: 95%;
     }
     .lp-hero-buttons-acad {
       display: flex;
-      gap: 5px;
-      margin-top: 2px;
+      gap: 8px;
+      margin-top: 4px;
     }
     .lp-btn-primary-acad {
-      font-size: 5px;
+      font-size: 10px;
       background: #C41E3A;
       color: #fff;
-      padding: 4px 10px;
+      padding: 5px 12px;
       border-radius: 14px;
       font-weight: 500;
     }
     .lp-btn-secondary-acad {
-      font-size: 5px;
+      font-size: 10px;
       color: #555;
-      padding: 4px 10px;
+      padding: 5px 12px;
       border-radius: 14px;
       font-weight: 500;
       border: 1px solid #ddd;
       background: #fff;
     }
     .lp-hero-right-acad {
-      width: 110px;
+      width: 32%;
       height: 100%;
       background: linear-gradient(135deg, #d5d5d5 0%, #b0b0b0 50%, #e0e0e0 100%);
       border-radius: 8px;
@@ -289,17 +285,17 @@
     }
     .lp-plans-acad {
       position: absolute;
-      bottom: 8px;
-      right: 8px;
-      left: 8px;
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
       display: flex;
-      gap: 4px;
+      gap: 6px;
     }
     .lp-plan-card-acad {
       flex: 1;
       background: rgba(255,255,255,0.95);
       border-radius: 6px;
-      padding: 5px 4px;
+      padding: 6px 4px;
       text-align: center;
       box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     }
@@ -307,55 +303,52 @@
       border: 1px solid #C41E3A;
     }
     .lp-plan-title-acad {
-      font-size: 5px;
+      font-size: 9px;
       font-weight: 600;
       color: #1a1a1a;
       margin-bottom: 2px;
     }
     .lp-plan-price-acad {
-      font-size: 8px;
+      font-size: 12px;
       font-weight: 700;
       color: #C41E3A;
     }
     .lp-plan-price-acad span {
-      font-size: 4px;
+      font-size: 8px;
       color: #888;
       font-weight: 400;
     }
 
-    /* MINIATURA ALBA STUDIO */
+    /* ===== MINIATURA ALBA STUDIO ===== */
     .lp-preview {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 320px;
-      height: 200px;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       background: #ffffff;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transform: scale(calc(100cqw / 320px));
-      transform-origin: top left;
     }
     .lp-header {
-      height: 28px;
+      height: 36px;
       background: #fff;
       border-bottom: 1px solid #f0f0f0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 14px;
+      padding: 0 16px;
       flex-shrink: 0;
     }
     .lp-logo {
-      font-size: 9px;
+      font-size: 13px;
       font-weight: 600;
       color: #1a1a1a;
       font-style: italic;
     }
     .lp-logo span {
       display: block;
-      font-size: 5px;
+      font-size: 8px;
       font-weight: 500;
       color: #999;
       font-style: normal;
@@ -364,25 +357,25 @@
     }
     .lp-nav {
       display: flex;
-      gap: 14px;
+      gap: 12px;
     }
     .lp-nav span {
-      font-size: 6px;
+      font-size: 10px;
       color: #555;
     }
     .lp-btn-header {
-      font-size: 6px;
+      font-size: 9px;
       background: #c98b8b;
       color: #fff;
-      padding: 3px 10px;
+      padding: 4px 10px;
       border-radius: 12px;
       font-weight: 500;
     }
     .lp-hero {
       flex: 1;
       display: flex;
-      padding: 16px 18px;
-      gap: 14px;
+      padding: 16px;
+      gap: 16px;
       position: relative;
     }
     .lp-hero-left {
@@ -390,17 +383,17 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 8px;
+      gap: 6px;
     }
     .lp-label {
-      font-size: 5px;
+      font-size: 9px;
       color: #c98b8b;
       font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
     .lp-title {
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 600;
       color: #1a1a1a;
       line-height: 1.25;
@@ -411,18 +404,18 @@
       font-weight: 500;
     }
     .lp-desc {
-      font-size: 6px;
+      font-size: 11px;
       color: #777;
-      line-height: 1.5;
+      line-height: 1.4;
       max-width: 90%;
     }
     .lp-hero-buttons {
       display: flex;
-      gap: 6px;
+      gap: 8px;
       margin-top: 4px;
     }
     .lp-btn-primary {
-      font-size: 6px;
+      font-size: 10px;
       background: #c98b8b;
       color: #fff;
       padding: 5px 12px;
@@ -430,7 +423,7 @@
       font-weight: 500;
     }
     .lp-btn-secondary {
-      font-size: 6px;
+      font-size: 10px;
       color: #555;
       padding: 5px 12px;
       border-radius: 14px;
@@ -438,7 +431,7 @@
       border: 1px solid #ddd;
     }
     .lp-hero-right {
-      width: 130px;
+      width: 35%;
       height: 100%;
       background: linear-gradient(135deg, #d5d5d5 0%, #b0b0b0 50%, #e0e0e0 100%);
       border-radius: 10px;
@@ -469,8 +462,8 @@
     }
     .lp-rating {
       position: absolute;
-      bottom: 10px;
-      right: 10px;
+      bottom: 12px;
+      right: 12px;
       background: rgba(255,255,255,0.95);
       border-radius: 8px;
       padding: 6px 10px;
@@ -494,13 +487,13 @@
       gap: 1px;
     }
     .lp-star {
-      width: 6px;
-      height: 6px;
+      width: 8px;
+      height: 8px;
       background: #c98b8b;
       clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     }
     .lp-rating-text {
-      font-size: 5px;
+      font-size: 8px;
       color: #888;
     }
 
@@ -575,12 +568,6 @@
       color: var(--text-secondary);
       line-height: 1.5;
     }
-    @media (max-width: 560px) {
-      .process-steps {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-    }
 
     /* CTA */
     .cta {
@@ -630,6 +617,21 @@
       color: var(--text-quaternary);
       padding-top: 8px;
     }
+
+    /* Ajustes Mobile */
+    @media (max-width: 560px) {
+      .process-steps {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .lp-nav-acad, .lp-nav { display: none; }
+      .lp-title-acad, .lp-title { font-size: 13px; }
+      .lp-desc-acad, .lp-desc { font-size: 9px; }
+      .lp-plans-acad { display: none; }
+      .lp-rating { padding: 4px 6px; }
+      .lp-rating-num { font-size: 11px; }
+      .lp-rating-text { font-size: 6px; }
+    }
   </style>
 </head>
 <body>
@@ -642,8 +644,8 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         Cuiabá-MT · Atendo todo o Brasil
       </div>
-      <!-- BOTÃO HEADER (Altere os números após wa.me/55...) -->
-      <a href="https://wa.me/5565996925541?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-header" target="_blank" rel="noopener">
+      <!-- Lembre-se de trocar o 5565999999999 pelo seu número real -->
+      <a href="https://wa.me/5565999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-header" target="_blank" rel="noopener">
         <svg class="icon" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.96.57 3.86 1.649 5.485L2 22l4.672-1.603c1.571.954 3.393 1.458 5.34 1.458 5.508 0 9.989-4.481 9.989-9.989 0-5.508-4.481-9.989-9.989-9.989zm5.82 14.288c-.244.686-1.42 1.309-1.97 1.365-.512.052-1.18.073-3.396-.841-2.835-1.169-4.66-4.048-4.801-4.237-.14-.188-1.151-1.534-1.151-2.925 0-1.391.727-2.073.986-2.355.259-.282.564-.352.753-.352.188 0 .376.002.54.009.174.007.409-.066.639.485.235.564.8 1.954.87 2.095.071.141.118.306.024.494-.094.188-.141.306-.282.47-.141.165-.296.368-.423.494-.141.141-.289.294-.124.577.165.282.733 1.21 1.573 1.958 1.082.964 1.995 1.263 2.277 1.404.282.141.447.118.611-.071.165-.188.705-.823.893-1.105.188-.282.376-.235.635-.141.259.094 1.645.775 1.927.916.282.141.47.212.54.329.071.118.071.681-.173 1.367z"/></svg>
         Falar no WhatsApp
       </a>
@@ -779,8 +781,8 @@
     <section class="cta">
       <h2>Vamos criar a sua página de venda?</h2>
       <p>Página pronta em 7 dias úteis, sem complicação.</p>
-      <!-- BOTÃO CTA FINAL (Altere os números após wa.me/55...) -->
-      <a href="https://wa.me/5565996925541?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn" target="_blank" rel="noopener">
+      <!-- Lembre-se de trocar o 5565999999999 pelo seu número real -->
+      <a href="https://wa.me/5565999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn" target="_blank" rel="noopener">
         <svg class="icon" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.96.57 3.86 1.649 5.485L2 22l4.672-1.603c1.571.954 3.393 1.458 5.34 1.458 5.508 0 9.989-4.481 9.989-9.989 0-5.508-4.481-9.989-9.989-9.989zm5.82 14.288c-.244.686-1.42 1.309-1.97 1.365-.512.052-1.18.073-3.396-.841-2.835-1.169-4.66-4.048-4.801-4.237-.14-.188-1.151-1.534-1.151-2.925 0-1.391.727-2.073.986-2.355.259-.282.564-.352.753-.352.188 0 .376.002.54.009.174.007.409-.066.639.485.235.564.8 1.954.87 2.095.071.141.118.306.024.494-.094.188-.141.306-.282.47-.141.165-.296.368-.423.494-.141.141-.289.294-.124.577.165.282.733 1.21 1.573 1.958 1.082.964 1.995 1.263 2.277 1.404.282.141.447.118.611-.071.165-.188.705-.823.893-1.105.188-.282.376-.235.635-.141.259.094 1.645.775 1.927.916.282.141.47.212.54.329.071.118.071.681-.173 1.367z"/></svg>
         Falar no WhatsApp
       </a>
