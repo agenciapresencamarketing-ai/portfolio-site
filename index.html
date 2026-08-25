@@ -134,16 +134,22 @@
 
     .case-thumb {
       width: 100%;
-      aspect-ratio: 16 / 9;
       position: relative;
       overflow: hidden;
       background: #faf8f6;
+      padding-top: 56.25%; /* fallback 16:9 para navegadores sem suporte a aspect-ratio */
+    }
+    @supports (aspect-ratio: 16 / 9) {
+      .case-thumb {
+        padding-top: 0;
+        aspect-ratio: 16 / 9;
+      }
     }
 
     /* ===== MINIATURA VIDA ATIVA ACADEMIA ===== */
     .lp-preview-academia {
       position: absolute;
-      inset: 0;
+      top: 0; right: 0; bottom: 0; left: 0;
       width: 100%;
       height: 100%;
       background: #ffffff;
@@ -266,7 +272,7 @@
     .lp-hero-right-acad::before {
       content: '';
       position: absolute;
-      inset: 0;
+      top: 0; right: 0; bottom: 0; left: 0;
       background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 30%);
     }
     .lp-hero-right-acad::after {
@@ -322,7 +328,7 @@
     /* ===== MINIATURA ALBA STUDIO ===== */
     .lp-preview {
       position: absolute;
-      inset: 0;
+      top: 0; right: 0; bottom: 0; left: 0;
       width: 100%;
       height: 100%;
       background: #ffffff;
@@ -441,7 +447,7 @@
     .lp-hero-right::before {
       content: '';
       position: absolute;
-      inset: 0;
+      top: 0; right: 0; bottom: 0; left: 0;
       background: 
         linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 30%),
         repeating-linear-gradient(90deg, transparent, transparent 8px, rgba(0,0,0,0.03) 8px, rgba(0,0,0,0.03) 9px);
