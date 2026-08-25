@@ -8,11 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- FAVICON: usando a logo real do arquivo logo.png -->
+  <!-- FAVICON -->
   <link rel="icon" type="image/png" href="logo.png">
 
   <!-- Google Analytics 4 -->
-  <!-- Troque G-XXXXXXXXXX pelo seu Measurement ID (Admin > Fluxos de dados > seu site, no GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -110,7 +109,7 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 22px rgba(37, 211, 102, 0.40);
     }
-    .btn-header .icon { width: 15px; height: 15px; }
+    .btn-header .icon { width: 18px; height: 18px; fill: currentColor; }
 
     /* Cases */
     .cases {
@@ -133,7 +132,6 @@
       box-shadow: var(--shadow-hover);
     }
 
-    /* Miniatura Alba Studio */
     .case-thumb {
       width: 100%;
       aspect-ratio: 320 / 200;
@@ -143,7 +141,7 @@
       container-type: inline-size;
     }
 
-    /* ===== MINIATURA VIDA ATIVA ACADEMIA ===== */
+    /* MINIATURA VIDA ATIVA ACADEMIA */
     .lp-preview-academia {
       position: absolute;
       top: 0;
@@ -275,7 +273,6 @@
       inset: 0;
       background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, transparent 30%);
     }
-    /* Silhueta de halteres */
     .lp-hero-right-acad::after {
       content: '';
       position: absolute;
@@ -290,7 +287,6 @@
         -14px -4px 0 -2px rgba(80,80,80,0.15),
         14px -4px 0 -2px rgba(80,80,80,0.15);
     }
-    /* Mini planos */
     .lp-plans-acad {
       position: absolute;
       bottom: 8px;
@@ -327,7 +323,7 @@
       font-weight: 400;
     }
 
-    /* ===== MINIATURA ALBA STUDIO ===== */
+    /* MINIATURA ALBA STUDIO */
     .lp-preview {
       position: absolute;
       top: 0;
@@ -626,7 +622,7 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 22px rgba(37, 211, 102, 0.40);
     }
-    .btn .icon { width: 18px; height: 18px; }
+    .btn .icon { width: 20px; height: 20px; fill: currentColor; }
 
     footer {
       text-align: center;
@@ -639,7 +635,6 @@
 <body>
   <div class="container">
     <header>
-      <!-- Substitua "logo.png" pelo nome do arquivo da sua logo -->
       <img src="logo.png" alt="Agência Presença" class="logo-img">
       <h1>Agência Presença</h1>
       <p>Landing pages que fazem o cliente entrar em contato em segundos</p>
@@ -647,8 +642,9 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         Cuiabá-MT · Atendo todo o Brasil
       </div>
-      <a href="https://wa.me/55SEUNUMERO" class="btn-header" target="_blank" rel="noopener">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <!-- BOTÃO HEADER (Altere os números após wa.me/55...) -->
+      <a href="https://wa.me/5565996925541?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn-header" target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.96.57 3.86 1.649 5.485L2 22l4.672-1.603c1.571.954 3.393 1.458 5.34 1.458 5.508 0 9.989-4.481 9.989-9.989 0-5.508-4.481-9.989-9.989-9.989zm5.82 14.288c-.244.686-1.42 1.309-1.97 1.365-.512.052-1.18.073-3.396-.841-2.835-1.169-4.66-4.048-4.801-4.237-.14-.188-1.151-1.534-1.151-2.925 0-1.391.727-2.073.986-2.355.259-.282.564-.352.753-.352.188 0 .376.002.54.009.174.007.409-.066.639.485.235.564.8 1.954.87 2.095.071.141.118.306.024.494-.094.188-.141.306-.282.47-.141.165-.296.368-.423.494-.141.141-.289.294-.124.577.165.282.733 1.21 1.573 1.958 1.082.964 1.995 1.263 2.277 1.404.282.141.447.118.611-.071.165-.188.705-.823.893-1.105.188-.282.376-.235.635-.141.259.094 1.645.775 1.927.916.282.141.47.212.54.329.071.118.071.681-.173 1.367z"/></svg>
         Falar no WhatsApp
       </a>
     </header>
@@ -657,7 +653,6 @@
       <!-- CASE 1: VIDA ATIVA ACADEMIA -->
       <a href="https://vidaativaacademia.netlify.app/" target="_blank" rel="noopener" class="case">
         <div class="case-thumb">
-          <!-- Miniatura CSS da LP da Vida Ativa -->
           <div class="lp-preview-academia">
             <div class="lp-header-acad">
               <div class="lp-logo-acad">Vida Ativa<span>Academia</span></div>
@@ -784,8 +779,9 @@
     <section class="cta">
       <h2>Vamos criar a sua página de venda?</h2>
       <p>Página pronta em 7 dias úteis, sem complicação.</p>
-      <a href="https://wa.me/55SEUNUMERO" class="btn" target="_blank" rel="noopener">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <!-- BOTÃO CTA FINAL (Altere os números após wa.me/55...) -->
+      <a href="https://wa.me/5565996925541?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ag%C3%AAncia%20Presen%C3%A7a%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn" target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.989 4.481-9.989 9.989 0 1.96.57 3.86 1.649 5.485L2 22l4.672-1.603c1.571.954 3.393 1.458 5.34 1.458 5.508 0 9.989-4.481 9.989-9.989 0-5.508-4.481-9.989-9.989-9.989zm5.82 14.288c-.244.686-1.42 1.309-1.97 1.365-.512.052-1.18.073-3.396-.841-2.835-1.169-4.66-4.048-4.801-4.237-.14-.188-1.151-1.534-1.151-2.925 0-1.391.727-2.073.986-2.355.259-.282.564-.352.753-.352.188 0 .376.002.54.009.174.007.409-.066.639.485.235.564.8 1.954.87 2.095.071.141.118.306.024.494-.094.188-.141.306-.282.47-.141.165-.296.368-.423.494-.141.141-.289.294-.124.577.165.282.733 1.21 1.573 1.958 1.082.964 1.995 1.263 2.277 1.404.282.141.447.118.611-.071.165-.188.705-.823.893-1.105.188-.282.376-.235.635-.141.259.094 1.645.775 1.927.916.282.141.47.212.54.329.071.118.071.681-.173 1.367z"/></svg>
         Falar no WhatsApp
       </a>
     </section>
@@ -795,7 +791,6 @@
     </footer>
   </div>
 
-  <!-- Rastreamento de eventos GA4: cliques nos cases e no CTA do WhatsApp -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       if (typeof gtag !== 'function') return;
